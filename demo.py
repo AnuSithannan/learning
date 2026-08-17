@@ -4,8 +4,6 @@ def check_even_odd(number):
         return "Even"
     else:
         return "Odd"
-
-# Test the function
 test_value = 17
 result = check_even_odd(test_value)
-print(f"The number {test_value} is {result}.")
+print(f"The output {test_value} is {result}.")
